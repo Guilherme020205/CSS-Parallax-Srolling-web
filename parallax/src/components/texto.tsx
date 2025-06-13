@@ -1,6 +1,6 @@
 export default function Texto() {
   return (
-    <div className="relative bg-[#003329] p-24 mt-40">
+    <div >
       <h1 className="text-white font-bold text-4xl">Parallax</h1>
       <p className="text-white">
         <br />

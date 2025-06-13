@@ -7,12 +7,11 @@ import tree from "../assets/imgs/tree.png";
 import leaf from "../assets/imgs/leaf.png";
 import plant from "../assets/imgs/plant.png";
 
-import '../functions/script.js'
+import "../functions/script.js";
 
 export default function Parallax() {
-   
   return (
-    <div className="relative flex justify-center items-center h-screen overflow-hidden">
+    <div className="relative flex justify-center items-center h-screen ">
       <img
         className="absolute top-0 left-0 w-full pointer-events-none"
         src={hill1}

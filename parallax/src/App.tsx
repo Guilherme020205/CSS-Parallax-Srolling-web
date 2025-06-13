@@ -6,7 +6,10 @@ function App() {
     <>
       <Header />
       <Parallax />
+      <div className="relative h-screen bg-[#003329] p-24 mt-40">
+
       <Texto />
+      </div>
     </>
   );
 }
