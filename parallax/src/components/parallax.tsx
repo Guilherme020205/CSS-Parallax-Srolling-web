@@ -12,7 +12,7 @@ import '../functions/script.js'
 export default function Parallax() {
    
   return (
-    <div className="relative flex justify-center items-center h-screen">
+    <div className="relative flex justify-center items-center h-screen overflow-hidden">
       <img
         className="absolute top-0 left-0 w-full pointer-events-none"
         src={hill1}
@@ -44,7 +44,7 @@ export default function Parallax() {
         id="tree"
       />
       <h2
-        className="absolute text-8xl font-bold text-white"
+        className="absolute text-7xl font-bold text-white"
         style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}
         id="text"
       >
