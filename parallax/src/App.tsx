@@ -1,10 +1,14 @@
+import Header from "./components/header";
+import Parallax from "./components/parallax";
+import Texto from "./components/texto";
 function App() {
-
   return (
     <>
-     <p>Olá mundo</p>
+      <Header />
+      <Parallax />
+      <Texto />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
